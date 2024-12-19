@@ -1,0 +1,60 @@
+# General Dependencies
+requests
+flask
+gradio
+
+# Image Processing
+Pillow
+opencv-python
+opencv-python-headless
+
+segment-anything
+
+# YOLO
+yolov8
+
+# Music Generation
+magenta
+
+# Text-to-Speech & Speech-to-Text
+gTTS
+SpeechRecognition
+
+# Natural Language Processing
+transformers
+spacy
+
+# Development
+jupyter
+
+# AI Tools
+openai
+anthropic
+langchain
+pydantic
+pydantic-ai
+llama-index
+llama
+
+# huggingface
+huggingface-hub
+
+# data science
+scikit-learn
+scipy
+numpy
+pandas
+matplotlib
+seaborn
+altair
+plotly
+torch
+tensorflow
+keras
+jax
+
+# meshgrid
+meshgrid
+
+# datasets
+datasets

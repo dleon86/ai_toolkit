@@ -2,6 +2,11 @@
 requests
 flask
 gradio
+streamlit
+nest-asyncio
+python-dotenv
+
+tavily-python
 
 # Image Processing
 Pillow
@@ -11,7 +16,7 @@ opencv-python-headless
 segment-anything
 
 # YOLO
-yolov8
+ultralytics
 
 # Music Generation
 magenta
@@ -34,7 +39,7 @@ langchain
 pydantic
 pydantic-ai
 llama-index
-llama
+logfire
 
 # huggingface
 huggingface-hub
@@ -52,9 +57,6 @@ torch
 tensorflow
 keras
 jax
-
-# meshgrid
-meshgrid
 
 # datasets
 datasets

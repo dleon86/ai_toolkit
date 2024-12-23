@@ -3,4 +3,4 @@ saved_segments/
 blog/
 cached_datasets/
 ai_env/
-.env
+.envgroq_web_search_RAG.py

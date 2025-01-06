@@ -21,8 +21,8 @@ def load_sam2():
     root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     
     # Load SAM2 model
-    checkpoint = os.path.join(root_dir, "external", "sam2", "checkpoints", "sam2.1_hiera_large.pt")
-    model_cfg = os.path.join(root_dir, "external", "sam2", "sam2", "configs", "sam2.1", "sam2.1_hiera_l.yaml")
+    checkpoint = os.path.join(root_dir, "external", "sam2", "checkpoints", "sam2.1_hiera_base_plus.pt")
+    model_cfg = os.path.join(root_dir, "external", "sam2", "sam2", "configs", "sam2.1", "sam2.1_hiera_b+.yaml")
     device = "cuda" if torch.cuda.is_available() else "cpu"
     
     sam2_model = build_sam2(model_cfg, checkpoint, device=device)
@@ -203,4 +203,4 @@ def main(image_number=0):
     plt.show()
 
 if __name__ == "__main__":
-    main(image_number=66) 
+    main(image_number=27) 
